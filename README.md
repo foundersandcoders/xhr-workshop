@@ -55,8 +55,9 @@ Here is example of website that I built:
 
  - Is there a way to return more/less than 25 GIFs? If so, try to implement it!
 
+---
 
-### HTTP Verbs
+###  Use HTTP Verbs to Make Your Requests Mean Something
 
 HTTP verbs are sent by the browser or client, and along with the URL used and data transmitted form part of the instruction to the API. There are several verbs, but in this tutorial we will be using GET. 
 
@@ -67,7 +68,7 @@ HTTP verbs are sent by the browser or client, and along with the URL used and da
 | POST   | Create a new resource.         |
 | DELETE | Delate a resource              |
 
-### Status code
+### Use HTTP Response Codes to Indicate Status
 
 As part of the response, a request gives back a status code. You can use this to identify if the request was successful or not.
 
