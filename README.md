@@ -2,7 +2,7 @@
 
 In this workshop we will build gifs search by
 
-- making  HTTP GET request,
+- making HTTP GET request,
 
 - DOM manipulation.
 
@@ -14,7 +14,7 @@ Here is example of gifs search that I built:
 
 1. Clone this repo and open in your text editor.
 
-2. Open index.html in your browser. You'll find a template there. Your job is to fill it with data using the Giphy API.
+2. Open the API Documentation. You can find it [here](https://github.com/Giphy/GiphyAPI)
 
 ## Giphy API
 
@@ -22,18 +22,43 @@ Here is example of gifs search that I built:
 
 You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
-## Step by step
+## Steps
 
-1. Retrieve gifs from API
+1. Have a look at documentation
+
+- Check if you need an API key (if yes where to add it)
+
+- Find the endpoint
+
+- Check your response - see how your JSON looks like
+
+  You can do this in a couple of ways: 
+  
+ - You can access an API in your web browser by popping the url into the address bar
+ 
+ - You can access the API using ```curl``` by running it into you terminal
+ 
+ - You can use [Postman]()
+
+2. Open index.html in your browser
+
+- As you can see, there is a box to type in a searching phrase. When the user has typed in the phrase, they should be able to   trigger the API call to Giphy by pressing *Search* button.
+
+- We will need to pass the phrase to Giphy, so we need to extract it from the input text box.
+
+- 
+
 
 ### HTTP Verbs
 
 HTTP verbs are sent by the browser or client, and along with the URL used and data transmitted form part of the instruction to the API. There are several verbs, but in this tutorial we will be using GET. 
 
-- GET – to fetch data
-- PUT – to edit existing data
-- POST – to add the new data
-- DELETE – to delete data
+| Verb   | Description                    |
+|:------:|:------------------------------:|
+| GET    | Fetching a resource.           |
+| PUT    | Updating an existing resource. |
+| POST   | Create a new resource.         |
+| DELETE | Delate a resource              |
 
 ### Status code
 
