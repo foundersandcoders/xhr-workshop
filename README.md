@@ -51,6 +51,9 @@ Here is example of website that I built:
 
 - Make a request.
 
+If you don't remember how [here](https://github.com/lucymonie/api-workshop/blob/master/02-xmlhttprequest.md) 
+is a reminder.
+
 ---
 
 ###  Use HTTP Verbs to Make Your Requests Mean Something
