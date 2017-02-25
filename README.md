@@ -1,6 +1,7 @@
 # xhr-workshop (60 minutes)
 
 In this workshop we will build gifs search by
+A webpage that can retrieve information about a specified GitHub user
 
 - making  HTTP GET request,
 
@@ -24,7 +25,7 @@ You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
 ## Step by step
 
-1. 
+1. Retrieve gifs from API
 
 
 
