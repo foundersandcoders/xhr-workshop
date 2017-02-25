@@ -1,12 +1,20 @@
 # Xhr workshop (60 minutes)
 
-In this workshop we will build gifs search by
+In this workshop we will build a website that allows user to search GIFs by a word or phrase by
 
 - making HTTP GET request,
 
 - DOM manipulation.
 
-Here is example of gifs search that I built:
+When the user has typed in, they should be able to trigger the API call to Giphy by pressing the *Search* button.
+
+## Giphy API
+
+[Giphy](http://api.giphy.com/) is an animated GIF search engine.
+
+You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
+
+Here is example of GIFs search that I built:
 
 ![gifs search](https://cloud.githubusercontent.com/assets/10700103/23332473/eef965fc-fb71-11e6-9e8e-d9cf090e9167.png) 
 
@@ -14,13 +22,7 @@ Here is example of gifs search that I built:
 
 1. Clone this repo and open in your text editor.
 
-2. Open the API Documentation. You can find it [here](https://github.com/Giphy/GiphyAPI)
-
-## Giphy API
-
-[Giphy](http://api.giphy.com/) is an animated GIF search engine.
-
-You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
+2. Open the API Documentation and follow the **Steps**
 
 ## Steps
 
@@ -42,8 +44,9 @@ You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
 ### 2. Open index.html in your browser
 
-- As you can see, there is a box to type in a searching phrase and a *Search* button.  
-  When the user has typed in the phrase, they should be able to trigger the API call to Giphy by pressing the *Search*         button.
+- As you can see, there is a box to type in a searching phrase and a *Search* button. 
+
+  
 
 ### 3. Open index.js  
 
