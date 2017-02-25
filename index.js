@@ -31,17 +31,17 @@ function searchGifs () {
 
       for (var i = 0; i < response.data.length; i++) {
         var gif = response.data[i];
-        var gifUrl = gif.images.original.url
+        var gifUrl = gif.images.fixed_height.url
         // console.log(gifUrl);
 
         var img = document.createElement('img');
          img.src = gifUrl;
         //  console.log(img);
         searchResults.appendChild(img);
-        // console.log(response.data[i]);
+        console.log(response.data[i]);
       }
     }
   };
-  myRequest.open('GET', 'http://api.giphy.com/v1/gifs/search?q=' + searchInput.value + '&limit=8' +'&api_key=dc6zaTOxFJmzC');
+  myRequest.open('GET', 'http://api.giphy.com/v1/gifs/search?q=' + searchInput.value + '&limit=10' +'&api_key=dc6zaTOxFJmzC');
   myRequest.send();
 }
