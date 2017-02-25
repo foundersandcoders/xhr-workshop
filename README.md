@@ -1,7 +1,15 @@
 # xhr-workshop (60 minutes)
 
-## Defining the problem
+
+## Why?
+
+
+## What?
+
+XMLHttpRequest (XHR)
 
 http://api.giphy.com/
 
-## Defining the tool
+
+
+## How?
