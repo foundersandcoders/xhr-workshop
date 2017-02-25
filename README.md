@@ -1,4 +1,4 @@
-# xhr-workshop
+# xhr-workshop (60 minutes)
 
 ## Defining the problem
 
