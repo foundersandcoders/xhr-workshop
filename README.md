@@ -49,12 +49,6 @@ Here is example of website that I built:
 
 - Make a request.
 
-### 3. Bonus
-
- - Style your website (follow BEM convenction)
-
- - Is there a way to return more/less than 25 GIFs? If so, try to implement it!
-
 ---
 
 ###  Use HTTP Verbs to Make Your Requests Mean Something
@@ -78,3 +72,11 @@ As part of the response, a request gives back a status code. You can use this to
 | 304          | Not modified   | The page has not been modified since we last retrieved data |
 | 400          | Bad Request    | The server did no understand the request                    |
 | 404          | Not Found      | The server could not find the requested resource            |
+
+---
+
+### 3. Bonus
+
+ - Style your website (follow BEM convenction)
+
+ - Is there a way to return more/less than 25 GIFs? If so, try to implement it!
