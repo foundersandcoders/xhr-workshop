@@ -33,7 +33,9 @@ Here is example of website that I built:
 
 - Check if you need an API key (if yes where to add it)
 
-- Check your response - see how your JSON looks like
+- Build your URI
+
+- Check your response (URI) - see how your JSON looks like
 
   You can do this in a couple of ways: 
   
