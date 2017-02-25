@@ -1,7 +1,6 @@
 # Xhr workshop (60 minutes)
 
 In this workshop we will build gifs search by
-A webpage that can retrieve information about a specified GitHub user
 
 - making  HTTP GET request,
 
@@ -29,7 +28,7 @@ You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
 ### HTTP Verbs
 
-HTTP verbs are sent by the browser or client, and along with the URL used and data transmitted form part of the instruction to the API. There are several verbs, but in this tutorial we will be primarily using GET. 
+HTTP verbs are sent by the browser or client, and along with the URL used and data transmitted form part of the instruction to the API. There are several verbs, but in this tutorial we will be using GET. 
 
 - GET – to fetch data
 - PUT – to edit existing data
