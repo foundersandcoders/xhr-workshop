@@ -51,9 +51,9 @@ Here is example of website that I built:
 
 ### 3. Bonus
 
- - style your website (follow BEM convenction)
+ - Style your website (follow BEM convenction)
 
- - is there a way to return more/less than 25 gifs? If so try to implement it!
+ - Is there a way to return more/less than 25 GIFs? If so, try to implement it!
 
 
 ### HTTP Verbs
