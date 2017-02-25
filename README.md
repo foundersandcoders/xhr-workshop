@@ -15,6 +15,7 @@ When the user has typed in, they should be able to trigger the API call to Giphy
 You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
 Here is example of GIFs search that I built:
+---
 
 ![gifs search](https://cloud.githubusercontent.com/assets/10700103/23332473/eef965fc-fb71-11e6-9e8e-d9cf090e9167.png) 
 
