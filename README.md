@@ -43,19 +43,13 @@ Here is example of website that I built:
  
  - You can use [Postman]()
 
-### 2. Open index.html in your browser
-
-- As you can see, there is a box to type in a searching phrase and a *Search* button. 
-
-  
-
-### 3. Open index.js  
+### 2. Open index.js  
 
 - We will need to pass the phrase to Giphy, so we need to extract it from the input text box.
 
 - Make a request.
 
-### 4. Bonus
+### 3. Bonus
 
  - style your website (follow BEM convenction)
 
