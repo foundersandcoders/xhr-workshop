@@ -1,29 +1,29 @@
 window.onload = documentLoadedHandler;
 var searchInput = null;
 var searchButton = null;
-var searchResultsUl = null;
+var searchResults = null;
 
 function documentLoadedHandler () {
   setElements();
-  searchButton.addEventListener('click', searchGifts);
+  searchButton.addEventListener('click', searchGifs);
 }
 
 function setElements () {
-  searchInput = document.querySelector('.search-query');
+  searchInput = document.querySelector('.search__input');
   if (searchInput === null) {
     throw new Error ('could not find search input');
   }
-  searchButton = document.querySelector('.search-btn');
+  searchButton = document.querySelector('.search__btn');
   if (searchButton === null) {
     throw new Error ('could not find search button');
   }
-  searchResults = document.querySelector('.search-results');
+  searchResults = document.querySelector('.gifs');
   if (searchResults === null) {
     throw new Error ('could not find search results');
   }
 }
 
-function searchGifts () {
+function searchGifs () {
   var myRequest = new XMLHttpRequest();
   myRequest.onreadystatechange = function () {
     if ( myRequest.readyState === 4 && myRequest.status === 200 ) {
@@ -38,10 +38,10 @@ function searchGifts () {
          img.src = gifUrl;
         //  console.log(img);
         searchResults.appendChild(img);
-        console.log(response.data[i]);
+        // console.log(response.data[i]);
       }
     }
   };
-  myRequest.open('GET', 'http://api.giphy.com/v1/gifs/search?q=' + searchInput.value + '&api_key=dc6zaTOxFJmzC', true);
+  myRequest.open('GET', 'http://api.giphy.com/v1/gifs/search?q=' + searchInput.value + '&limit=8' +'&api_key=dc6zaTOxFJmzC');
   myRequest.send();
 }

@@ -1,0 +1,36 @@
+.search {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.search__input {
+  width: 75%;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 10%;
+  outline: none;
+  font-size: 20px;
+}
+
+.search__btn {
+  height: 40px;
+  border-radius: 5px;
+  background-color: #eee;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search__btn:hover {
+  background-color: #aaa;
+}
+
+.gifs {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.gifs img {
+  padding: 10px;
+}
