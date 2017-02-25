@@ -6,6 +6,10 @@ In this workshop we will build gifs search by
 
 - DOM manipulation.
 
+Here is example of gifs search that I built:
+
+![gifs search](https://cloud.githubusercontent.com/assets/10700103/23332473/eef965fc-fb71-11e6-9e8e-d9cf090e9167.png) 
+
 ## Getting started
 
 1. Clone this repo and open in your text editor.
