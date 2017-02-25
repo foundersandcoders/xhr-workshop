@@ -29,9 +29,9 @@ Here is example of website that I built:
 
 ### 1. Have a look at documentation
 
-- Check if you need an API key (if yes where to add it)
-
 - Find the endpoint
+
+- Check if you need an API key (if yes where to add it)
 
 - Check your response - see how your JSON looks like
 
