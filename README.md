@@ -1,4 +1,4 @@
-# xhr-workshop (60 minutes)
+# Xhr workshop (60 minutes)
 
 In this workshop we will build gifs search by
 A webpage that can retrieve information about a specified GitHub user
