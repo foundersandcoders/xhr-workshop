@@ -83,6 +83,6 @@ As part of the response, a request gives back a status code. You can use this to
 
  - Is there a way to return more/less than 25 GIFs? If so, try to implement it!
 
-### Solution
+## Solution
 
 To see my solution pull down the branch "add-solution" and check out index.js.
