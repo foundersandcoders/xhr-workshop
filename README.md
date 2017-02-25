@@ -42,11 +42,20 @@ You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
 2. Open index.html in your browser
 
-- As you can see, there is a box to type in a searching phrase. When the user has typed in the phrase, they should be able to   trigger the API call to Giphy by pressing *Search* button.
+- As you can see, there is a box to type in a searching phrase and a *Search* button.  
+  When the user has typed in the phrase, they should be able to trigger the API call to Giphy by pressing the *Search*         button.
+
+3. Open index.js  
 
 - We will need to pass the phrase to Giphy, so we need to extract it from the input text box.
 
-- 
+- Make a request.
+
+4. Bonus
+
+  - style your website (follow BEM convenction)
+
+  - is there a way to return more/less than 25 gifs? If so try to implement it!
 
 
 ### HTTP Verbs
