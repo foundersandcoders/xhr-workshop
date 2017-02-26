@@ -31,12 +31,10 @@ function searchGifs () {
 
       for (var i = 0; i < response.data.length; i++) {
         var gif = response.data[i];
-        var gifUrl = gif.images.fixed_height.url
-        // console.log(gifUrl);
-
+        var gifUrl = gif.images.fixed_height.url;
         var img = document.createElement('img');
-         img.src = gifUrl;
-        //  console.log(img);
+
+        img.src = gifUrl;
         searchResults.appendChild(img);
         console.log(response.data[i]);
       }
