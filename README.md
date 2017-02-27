@@ -31,7 +31,7 @@ Here is example of website that I built:
 
 - Find the endpoint
   
-   The endpoint is the URL where your service can be accessed by a client application.
+   > The endpoint is the URL where your service can be accessed by a client application.
 
 - Check if you need an API key (if yes where to add it)
 
