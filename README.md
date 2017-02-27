@@ -10,20 +10,24 @@ When the user has typed in, they should be able to trigger the API call to Giphy
 
 ## Giphy API
 
-[Giphy](http://api.giphy.com/) is an animated GIF search engine.
+We're going to explore the [Giphy API](http://api.giphy.com/) (is an animated GIF search engine) and learn how to read API documentation.
 
-You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
-Here is example of website that I built:
----
 
-![gifs search](https://cloud.githubusercontent.com/assets/10700103/23332473/eef965fc-fb71-11e6-9e8e-d9cf090e9167.png) 
+## Tools
+
+The first thing we want to do is install a couple of tools to make our lives a lot easier.
+
+[JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) is a Chrome extension that will automatically make JSON data much more readable in Chrome.
+
+[Postman](https://www.getpostman.com/) is a Chrome app that we can use to easily make API requests. Check out the docs and install the app from [here](https://www.getpostman.com/docs/).
 
 ## Getting started
 
 1. Clone this repo and open in your text editor.
 
-2. Open the API Documentation and follow the **Steps**
+2. Open the API Documentation and follow the **Steps**.
+  You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
 ## Steps
 
