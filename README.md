@@ -90,4 +90,4 @@ As part of the response, a request gives back a status code. You can use this to
 
 ## Solution
 
-To see my solution pull down the branch "add-solution" and check out index.js.
+To see my solution checkout the `add-solution` branch.
