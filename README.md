@@ -39,9 +39,9 @@ The first thing we want to do is install a couple of tools to make our lives a l
 
 - Check if you need an API key (if yes where to add it)
 
-- Build your URI
+- Build your URL
 
-- Check your response (URI) - see how your JSON looks like
+- Check your response (URL) - see how your JSON looks like
 
   You can do this in a couple of ways: 
   
@@ -49,7 +49,7 @@ The first thing we want to do is install a couple of tools to make our lives a l
  
  - You can access the API using ```curl``` by running it into you terminal
  
- - You can use [Postman]()
+ - You can use [Postman](https://www.getpostman.com/docs/)
 
 ### 2. Open index.js  
 
@@ -59,6 +59,17 @@ The first thing we want to do is install a couple of tools to make our lives a l
 
 If you don't remember how [here](https://github.com/lucymonie/api-workshop/blob/master/02-xmlhttprequest.md) 
 is a reminder.
+
+### 3. Bonus
+
+ - Style your website (follow BEM convenction)
+
+ - Is there a way to return more/less GIFs? If so, try to implement it!
+
+## Solution
+
+To see my solution checkout the `add-solution` branch.
+
 
 ---
 
@@ -84,14 +95,3 @@ As part of the response, a request gives back a status code. You can use this to
 | 400          | Bad Request    | The server did no understand the request                    |
 | 404          | Not Found      | The server could not find the requested resource            |
 
----
-
-### 3. Bonus
-
- - Style your website (follow BEM convenction)
-
- - Is there a way to return more/less than 25 GIFs? If so, try to implement it!
-
-## Solution
-
-To see my solution checkout the `add-solution` branch.
