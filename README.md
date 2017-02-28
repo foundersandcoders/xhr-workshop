@@ -69,29 +69,3 @@ is a reminder.
 ## Solution
 
 To see my solution checkout the `add-solution` branch.
-
-
----
-
-###  Use HTTP Verbs to Make Your Requests Mean Something
-
-HTTP verbs are sent by the browser or client, and along with the URL used and data transmitted form part of the instruction to the API. There are several verbs, but in this tutorial we will be using GET. 
-
-| Verb   | Description                    |
-|:------:|:------------------------------:|
-| GET    | Fetching a resource.           |
-| PUT    | Updating an existing resource. |
-| POST   | Create a new resource.         |
-| DELETE | Delate a resource              |
-
-### Use HTTP Response Codes to Indicate Status
-
-As part of the response, a request gives back a status code. You can use this to identify if the request was successful or not.
-
-| Status code  | Message        | Description                                                 |
-|:------------:|:--------------:|:-----------------------------------------------------------:|
-| 200          | OK             | Successful request                                          |
-| 304          | Not modified   | The page has not been modified since we last retrieved data |
-| 400          | Bad Request    | The server did no understand the request                    |
-| 404          | Not Found      | The server could not find the requested resource            |
-
