@@ -20,6 +20,8 @@ The first thing we want to do is install a couple of tools to make our lives a l
 
 [Postman](https://www.getpostman.com/) is a Chrome app that we can use to easily make API requests. Check out the docs and install the app from [here](https://www.getpostman.com/docs/).
 
+[prettyjson](https://www.npmjs.com/package/prettyjson) - run in your terminal `npm install -g prettyjson`
+
 ## Getting started
 
 1. Clone this repo and open it in your text editor.
@@ -47,6 +49,7 @@ You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
  - You can access an API in your web browser by popping the url into the address bar
  
  - You can access the API using ```curl``` by running it in your terminal
+   `curl "your-url-here" | prettyjson`
  
  - You can use [Postman](https://www.getpostman.com/docs/)
 
