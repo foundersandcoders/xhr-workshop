@@ -20,7 +20,7 @@ The first thing we want to do is install a couple of tools to make our lives a l
 
 [Postman](https://www.getpostman.com/) is a Chrome app that we can use to easily make API requests. Check out the docs and install the app from [here](https://www.getpostman.com/docs/).
 
-[prettyjson](https://www.npmjs.com/package/prettyjson) - run in your terminal `npm install -g prettyjson`
+[prettyjson](https://www.npmjs.com/package/prettyjson) is a package for formatting JSON data. To install it run in your terminal `npm install -g prettyjson`
 
 ## Getting started
 
