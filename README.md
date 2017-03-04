@@ -48,8 +48,7 @@ You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
   
  - You can access an API in your web browser by popping the url into the address bar
  
- - You can access the API using ```curl``` by running it in your terminal
-   `curl "your-url-here" | prettyjson`
+ - You can access the API using `curl` by running in your terminal `curl "your-url-here" | prettyjson`
  
  - You can use [Postman](https://www.getpostman.com/docs/)
 
