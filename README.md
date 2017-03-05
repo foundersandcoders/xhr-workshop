@@ -1,6 +1,6 @@
 # XHR workshop (60 minutes)
 
-In this workshop we will build a small web app that allows users to search for GIFs by a word or phrase. We will use:
+In this workshop we will build a small web app that allows users to search for GIFs by a word or phrase and gets a list of GIFs. We will use:
 - an HTTP GET request
 - DOM manipulation.
 
