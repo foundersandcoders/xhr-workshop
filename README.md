@@ -1,6 +1,6 @@
-# Xhr workshop (60 minutes)
+# XHR workshop (60 minutes)
 
-In this workshop we will build a small web app that allows users to search for GIFs by a word or phrase. We will use:
+In this workshop we will build a small web app that allows users to search for GIFs by a word or phrase and gets a list of GIFs. We will use:
 - an HTTP GET request
 - DOM manipulation.
 
@@ -19,6 +19,8 @@ The first thing we want to do is install a couple of tools to make our lives a l
 [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) is a Chrome extension that will automatically make JSON data much more readable in Chrome.
 
 [Postman](https://www.getpostman.com/) is a Chrome app that we can use to easily make API requests. Check out the docs and install the app from [here](https://www.getpostman.com/docs/).
+
+[prettyjson](https://www.npmjs.com/package/prettyjson) is a package for formatting JSON data. To install it run in your terminal `npm install -g prettyjson`
 
 ## Getting started
 
@@ -46,15 +48,15 @@ You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
  - You can access an API in your web browser by popping the url into the address bar
 
- - You can access the API using ```curl``` by running it in your terminal
-
+ - You can access the API using `curl` by running in your terminal `curl "your-url-here" | prettyjson`
+ 
  - You can use [Postman](https://www.getpostman.com/docs/)
 
 ### 2. Open index.js  
 
 - We will need to pass the phrase to Giphy, so we need to extract it from the input text box.
 
-- Make a request to Giphy with the user input as your search paramater
+- Make a request to Giphy with the user input as your search paramater.
 
 If you don't remember how [here](https://github.com/lucymonie/api-workshop/blob/master/02-xmlhttprequest.md)
 is a reminder.
