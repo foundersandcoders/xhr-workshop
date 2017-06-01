@@ -1,3 +1,6 @@
+**Author**: [@skibinska](https://github.com/skibinska)  
+**Maintainer**: [@skibinska](https://github.com/skibinska)
+
 # XHR workshop (60 minutes)
 
 In this workshop we will build a small web app that allows users to search for GIFs by a word or phrase and gets a list of GIFs. We will use:
@@ -35,21 +38,21 @@ You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 ### 1. Have a look at documentation
 
 - Find the endpoint we need
-  
+
    > The endpoint is the URL that can be reached by client-side applications
-   
+
 - Check if you need an API key (if yes where to add it)
 
 - Build your URL
 
 - Check your response (via the URL) - see what your JSON looks like
 
-  You can do this in a couple of ways: 
-  
+  You can do this in a couple of ways:
+
  - You can access an API in your web browser by popping the url into the address bar
- 
+
  - You can access the API using `curl` by running in your terminal `curl "your-url-here" | prettyjson`
- 
+
  - You can use [Postman](https://www.getpostman.com/docs/)
 
 ### 2. Open index.js  
@@ -58,7 +61,7 @@ You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
 
 - Make a request to Giphy with the user input as your search paramater.
 
-If you don't remember how [here](https://github.com/lucymonie/api-workshop/blob/master/03-xmlhttprequest.md) 
+If you don't remember how [here](https://github.com/lucymonie/api-workshop/blob/master/03-xmlhttprequest.md)
 is a reminder.
 
 ### 3. Bonus
