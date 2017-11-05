@@ -31,7 +31,7 @@ The first thing we want to do is install a couple of tools to make our lives a l
 
 2. Open the API Documentation and follow the **Steps**.
 
-You can find the API Documentation [here](https://github.com/Giphy/GiphyAPI).
+You can find the API Documentation [here](https://developers.giphy.com/docs/.
 
 ## Steps
 
