@@ -13,7 +13,7 @@ When the user has typed in a word or phrase they should be able to trigger the A
 
 We're going to explore the [Giphy API](http://api.giphy.com/) (Giphy is an animated GIF search engine) and learn how to read API documentation.
 
-
+Most good APIs have detailed docs which you should read to find out exactly what information is available to you. Docs should also help you find out how to build your queries and will often provide sample requests and response objects.
 
 ## Tools
 
