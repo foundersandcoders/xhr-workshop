@@ -2,12 +2,9 @@ var button = document.querySelector(".search-btn");
 var searchResults = document.querySelector('.search-results');
 var userInput = document.querySelector(".search-query").value;
 
-button.addEventListener("click", function(){
-  if (userInput) {
-    location.reload();
-  }
-  searchGifs()
-});
+//I want to add clear function
+button.addEventListener('click', searchGifs);
+
 
 
 // build http request
@@ -31,6 +28,4 @@ function searchGifs () {
   }
   xhr.open("GET", url, true);
   xhr.send()
-};
-
-//
+}
