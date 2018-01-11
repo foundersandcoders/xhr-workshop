@@ -3,7 +3,10 @@ var searchResults = document.querySelector('.search-results');
 var userInput = document.querySelector(".search-query").value;
 
 //I want to add clear function
-button.addEventListener('click', searchGifs);
+button.addEventListener('click', function () {
+  clearNode()
+  searchGifs()
+});
 
 
 
@@ -22,10 +25,16 @@ function searchGifs () {
         var img = document.createElement('img');
         img.src = gifUrl;
         searchResults.appendChild(img);
-        console.log(gif,gifUrl);
       }
     }
   }
   xhr.open("GET", url, true);
   xhr.send()
+}
+
+function clearNode () {
+  var resultNode = document.querySelector('.search-results');
+  while (resultNode.firstChild) {
+    resultNode.removeChild(resultNode.firstChild);
+  }
 }
