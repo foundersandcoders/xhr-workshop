@@ -59,7 +59,7 @@ You can find the API Documentation [here](https://developers.giphy.com/docs/).
 
 - We will need to pass the phrase to Giphy, so we need to extract it from the input text box.
 
-- Make a request to Giphy with the user input as your search paramater.
+- Make a request to Giphy with the user input as your search parameter.
 
 If you don't remember how [here](https://github.com/lucymonie/api-workshop/blob/master/03-xmlhttprequest.md)
 is a reminder.
