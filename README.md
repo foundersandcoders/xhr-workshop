@@ -4,10 +4,11 @@
 # XHR workshop (60 minutes)
 
 In this workshop we will build a small web app that allows users to search for GIFs by a word or phrase and gets a list of GIFs. We will use:
+
 - an HTTP GET request
 - DOM manipulation.
 
-When the user has typed in a word or phrase they should be able to trigger the API call to Giphy by pressing the *Search* button.
+When the user has typed in a word or phrase they should be able to trigger the API call to Giphy by pressing the _Search_ button.
 
 ## Giphy API
 
@@ -21,7 +22,7 @@ The first thing we want to do is install a couple of tools to make our lives a l
 
 [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) is a Chrome extension that will automatically make JSON data much more readable in Chrome.
 
-[Postman](https://www.getpostman.com/) is a Chrome app that we can use to easily make API requests. Check out the docs and install the app from [here](https://www.getpostman.com/docs/).
+[Postman](https://www.getpostman.com/) is a native app that we can use to easily make API requests. The Chrome app has been deprecated, make sure you use the native app. Check out the docs and install the app from [here](https://www.getpostman.com/docs/).
 
 [prettyjson](https://www.npmjs.com/package/prettyjson) is a package for formatting JSON data. To install it run in your terminal `npm install -g prettyjson`
 
@@ -39,7 +40,7 @@ You can find the API Documentation [here](https://developers.giphy.com/docs/).
 
 - Find the endpoint we need
 
-   > The endpoint is the URL that can be reached by client-side applications
+  > The endpoint is the URL that can be reached by client-side applications
 
 - Check if you need an API key (if yes where to add it)
 
@@ -49,13 +50,13 @@ You can find the API Documentation [here](https://developers.giphy.com/docs/).
 
   You can do this in a couple of ways:
 
- - You can access an API in your web browser by popping the url into the address bar
+- You can access an API in your web browser by popping the url into the address bar
 
- - You can access the API using `curl` by running in your terminal `curl "your-url-here" | prettyjson`
+- You can access the API using `curl` by running in your terminal `curl "your-url-here" | prettyjson`
 
- - You can use [Postman](https://www.getpostman.com/docs/)
+- You can use [Postman](https://www.getpostman.com/docs/)
 
-### 2. Open index.js  
+### 2. Open index.js
 
 - We will need to pass the phrase to Giphy, so we need to extract it from the input text box.
 
@@ -66,9 +67,9 @@ is a reminder.
 
 ### 3. Bonus
 
- - Style your website (follow BEM conventions)
+- Style your website (follow BEM conventions)
 
- - Is there a way to return more/less GIFs? If so, try to implement it!
+- Is there a way to return more/less GIFs? If so, try to implement it!
 
 ## Solution
 
